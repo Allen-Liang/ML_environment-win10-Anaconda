@@ -9,8 +9,10 @@
 
 1. conda create -n ml python=3.5  <br>
 2. activate ml  <br>
-3.（GPU版本）pip install --upgrade https://storage.googleapis.com/tensorflow/windows/gpu/tensorflow_gpu-0.12.0rc0-cp35-cp35m-win_amd64.whl  <br>
-4.（如果3报错）则： pip install --upgrade --ignore-installed setuptools   <br>
+3.（GPU版本）pip install tensorflow-gpu  <br>
+（CPU版本）pip install tensorflow  <br>
+　
+4.（如果3报错）则： pip install --upgrade --ignore-installed setuptools  　 <br>
    继续3步骤安装    <br>
 5.由于安装的是GPU版的，我们还需要安装 Cuda Toolkit 8.0 和 cuDNN v5去 https://developer.nvidia.com/cuda-downloads 下载win10版本    <br>
 6.默认安装下载下来的 cuda_8.0.44_win10.exe （推荐默认安装）<br>
