@@ -1,6 +1,12 @@
 # ML_environment-win10-Anaconda
 ## win10_conda_搭建ML环境（windows 10 64bit下安装Tensorflow+（Keras+theano）+opencv++VS2015+CUDA8.0+cudnn 5.1 GPU加速)
 
+[一个教程一首歌](http://music.163.com/#/song?id=212233 "卖假货的学长推荐，点了不后悔，哈哈！")<br>
+![](https://github.com/Allen-Liang/ML_environment-win10-Anaconda/raw/master/1.png)<br>
+![](https://github.com/Allen-Liang/ML_environment-win10-Anaconda/raw/master/2.png)<br>
+![](https://github.com/Allen-Liang/ML_environment-win10-Anaconda/raw/master/3.png)<br>
+![](https://github.com/Allen-Liang/ML_environment-win10-Anaconda/raw/master/4.png)<br>
+
 1. conda create -n ml python=3.5  <br>
 2. activate ml  <br>
 3.（GPU版本）pip install --upgrade https://storage.googleapis.com/tensorflow/windows/gpu/tensorflow_gpu-0.12.0rc0-cp35-cp35m-win_amd64.whl  <br>
@@ -51,3 +57,4 @@ C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0   <br>
 
 3. 如何验证CuDNN是否配置成功呢？  <br>
 打开Anaconda Prompt，输入python，再输入import tensorflow，显示的如果是下图这样子，不提示没有安装cudnn，就成功了。  <br>
+![](https://github.com/Allen-Liang/ML_environment-win10-Anaconda/raw/master/1.png)<br>
