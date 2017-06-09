@@ -6,9 +6,7 @@
 3.（GPU版本）pip install --upgrade https://storage.googleapis.com/tensorflow/windows/gpu/tensorflow_gpu-0.12.0rc0-cp35-cp35m-win_amd64.whl  <br>
 4.（如果3报错）则： pip install --upgrade --ignore-installed setuptools   <br>
    继续3步骤安装    <br>
-  
-5.由于安装的是GPU版的，我们还需要安装 Cuda Toolkit 8.0 和 cuDNN v5  <br>
-  去 https://developer.nvidia.com/cuda-downloads 下载win10版本    <br>
+5.由于安装的是GPU版的，我们还需要安装 Cuda Toolkit 8.0 和 cuDNN v5去 https://developer.nvidia.com/cuda-downloads 下载win10版本    <br>
 6.默认安装下载下来的 cuda_8.0.44_win10.exe （推荐默认安装）<br>
   接下来我们可以检查 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin（默认安装目录下，安装路径可以自定义）是否添加到了环境变量 （如果是默认安装，一般不会有问题）<br>
 
